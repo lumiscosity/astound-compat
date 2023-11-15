@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Astound Compat
+This mod adds or modifies things that cannot be changed using datapacks or CraftTweaker for the modpack [Astound](https://github.com/lumiscosity/astound).
+It probably won't be of much use outside of Astound considering its limited scope, but it will be provided on Modrinth for convenience.
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# Features
+- Custom [Wilder Wild](https://github.com/FrozenBlock/WilderWild) hollowed logs
+- Custom ladders and bookshelves matching the ones from [Jineric Mod](https://github.com/Jiingy/Jineric-Mod)
+- Custom [Promenade](https://github.com/DawnTeamMC/Promenade) leaf piles
