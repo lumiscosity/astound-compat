@@ -1,6 +1,6 @@
 # Astound Compat
 This mod adds or modifies things that cannot be changed using datapacks or CraftTweaker for the modpack [Astound](https://github.com/lumiscosity/astound).
-It probably won't be of much use outside of Astound considering its limited scope, but it will be provided on Modrinth for convenience.
+It probably won't be of much use outside of Astound considering its limited scope.
 
 # Features
 - Custom [Wilder Wild](https://github.com/FrozenBlock/WilderWild) hollowed logs
