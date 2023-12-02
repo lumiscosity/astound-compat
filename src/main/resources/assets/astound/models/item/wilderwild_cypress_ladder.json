@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "astound:block/wilderwild_cypress_ladder"
+  }
+}

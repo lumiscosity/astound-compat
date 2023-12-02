@@ -3,13 +3,12 @@
 	"id": "astound",
 	"version": "${version}",
 	"name": "Astound Compat",
-	"description": "Compatiblity tweaks for Astound",
+	"description": "Compatibility tweaks for Astound",
 	"authors": [
 		"lumiscosity"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/lumiscosity/astound-compat"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/astound/icon.png",
@@ -17,6 +16,9 @@
 	"entrypoints": {
 		"main": [
 			"com.lumiscosity.AstoundCompat"
+		],
+		"client": [
+			"com.lumiscosity.AstoundCompatClient"
 		]
 	},
 	"depends": {

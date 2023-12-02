@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "astound:block/gardens_of_the_dead_whistlecane_ladder"
+  }
+}
