@@ -17,18 +17,8 @@
 	"entrypoints": {
 		"main": [
 			"com.lumiscosity.AstoundCompat"
-		],
-		"client": [
-			"com.lumiscosity.AstoundCompatClient"
 		]
 	},
-	"mixins": [
-		"astound.mixins.json",
-		{
-			"config": "astound.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.24",
 		"minecraft": ">=1.20.1",

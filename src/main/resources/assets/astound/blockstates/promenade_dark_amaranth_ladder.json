@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "astound:block/promenade_dark_amaranth_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "astound:block/promenade_dark_amaranth_ladder"
+    },
+    "facing=south": {
+      "model": "astound:block/promenade_dark_amaranth_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astound:block/promenade_dark_amaranth_ladder",
+      "y": 270
+    }
+  }
+}

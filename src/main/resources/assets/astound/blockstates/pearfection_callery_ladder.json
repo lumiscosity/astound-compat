@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "astound:block/pearfection_callery_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "astound:block/pearfection_callery_ladder"
+    },
+    "facing=south": {
+      "model": "astound:block/pearfection_callery_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astound:block/pearfection_callery_ladder",
+      "y": 270
+    }
+  }
+}

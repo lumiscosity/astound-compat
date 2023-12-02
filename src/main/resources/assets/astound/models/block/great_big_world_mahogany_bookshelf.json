@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "great_big_world:block/mahogany_planks",
+    "side": "astound:block/great_big_world_mahogany_bookshelf"
+  }
+}

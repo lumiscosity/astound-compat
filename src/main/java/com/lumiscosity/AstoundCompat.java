@@ -2,21 +2,16 @@ package com.lumiscosity;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.LadderBlock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AstoundCompat implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("astound_compat");
-
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
+		public static final Block GREAT_BIG_WORLD_ACAI_LADDER = register("great_big_world_acai_ladder", new LadderBlock(FabricBlockSettings.copy(LADDER).sounds(BlockSoundGroup.CHERRY_WOOD)));
 		LOGGER.info("Astound compatibility tweaks loaded!");
 	}
 }

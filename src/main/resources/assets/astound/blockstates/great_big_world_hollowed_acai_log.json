@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "astound:block/great_big_world_hollowed_acai_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "astound:block/great_big_world_hollowed_acai_log"
+    },
+    "axis=z": {
+      "model": "astound:block/great_big_world_hollowed_acai_log",
+      "x": 90
+    }
+  }
+}

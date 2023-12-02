@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "promenade:block/sakura/planks",
+    "side": "astound:block/promenade_sakura_bookshelf"
+  }
+}

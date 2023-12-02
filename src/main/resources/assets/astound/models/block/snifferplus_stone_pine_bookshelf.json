@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "snifferplus:block/stone_pine_planks",
+    "side": "astound:block/snifferplus_stone_pine_bookshelf"
+  }
+}

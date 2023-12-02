@@ -1,0 +1,8 @@
+{
+  "parent": "wilderwild:block/template_hollowed_log",
+  "textures": {
+    "top": "astound:block/traverse_stripped_hollowed_fir_log_top",
+    "inner": "astound:block/traverse_stripped_hollowed_fir_log",
+    "outer": "astound:block/traverse_stripped_hollowed_fir_log"
+  }
+}

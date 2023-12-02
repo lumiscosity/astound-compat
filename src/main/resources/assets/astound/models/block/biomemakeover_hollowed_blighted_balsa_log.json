@@ -1,0 +1,8 @@
+{
+  "parent": "wilderwild:block/template_hollowed_log",
+  "textures": {
+    "top": "astound:block/biomemakeover_hollowed_blighted_balsa_log_top",
+    "inner": "astound:block/biomemakeover_stripped_hollowed_blighted_balsa_log",
+    "outer": "astound:block/biomemakeover_hollowed_blighted_balsa_log"
+  }
+}

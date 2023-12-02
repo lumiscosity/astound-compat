@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "astound:block/gardens_of_the_dead_whistlecane_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "astound:block/gardens_of_the_dead_whistlecane_ladder"
+    },
+    "facing=south": {
+      "model": "astound:block/gardens_of_the_dead_whistlecane_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astound:block/gardens_of_the_dead_whistlecane_ladder",
+      "y": 270
+    }
+  }
+}

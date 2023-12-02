@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "biomemakeover:block/blighted_balsa_planks",
+    "side": "astound:block/biomemakeover_blighted_balsa_bookshelf"
+  }
+}

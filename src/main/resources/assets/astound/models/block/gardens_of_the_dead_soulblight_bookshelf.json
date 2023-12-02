@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gardens_of_the_dead:block/soulblight_planks",
+    "side": "astound:block/gardens_of_the_dead_soulblight_bookshelf"
+  }
+}

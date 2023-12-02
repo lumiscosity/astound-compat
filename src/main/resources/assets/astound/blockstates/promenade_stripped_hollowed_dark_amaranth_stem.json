@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "astound:block/promenade_stripped_hollowed_dark_amaranth_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "astound:block/promenade_stripped_hollowed_dark_amaranth_stem"
+    },
+    "axis=z": {
+      "model": "astound:block/promenade_stripped_hollowed_dark_amaranth_stem",
+      "x": 90
+    }
+  }
+}

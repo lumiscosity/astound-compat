@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "astound:block/great_big_world_acai_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "astound:block/great_big_world_acai_ladder"
+    },
+    "facing=south": {
+      "model": "astound:block/great_big_world_acai_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astound:block/great_big_world_acai_ladder",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "promenade:block/palm/planks",
+    "side": "astound:block/promenade_palm_bookshelf"
+  }
+}

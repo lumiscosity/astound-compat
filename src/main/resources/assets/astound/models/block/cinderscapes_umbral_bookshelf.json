@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cinderscapes:block/umbral_planks",
+    "side": "astound:block/cinderscapes_umbral_bookshelf"
+  }
+}

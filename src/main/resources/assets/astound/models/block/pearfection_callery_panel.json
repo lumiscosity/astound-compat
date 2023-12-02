@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "astound:block/pearfection_callery_top",
+    "side": "astound:block/pearfection_callery_panel",
+    "bottom": "astound:block/pearfection_callery_top"
+  }
+}

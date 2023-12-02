@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "astound:block/cinderscapes_umbral_top",
+    "side": "astound:block/cinderscapes_umbral_panel",
+    "bottom": "astound:block/cinderscapes_umbral_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "astound:block/wilderwild_baobab_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "astound:block/wilderwild_baobab_ladder"
+    },
+    "facing=south": {
+      "model": "astound:block/wilderwild_baobab_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "astound:block/wilderwild_baobab_ladder",
+      "y": 270
+    }
+  }
+}

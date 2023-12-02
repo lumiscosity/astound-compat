@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "astound:block/biomemakeover_ancient_oak_top",
+    "side": "astound:block/biomemakeover_ancient_oak_trim",
+    "bottom": "astound:block/biomemakeover_ancient_oak_top"
+  }
+}

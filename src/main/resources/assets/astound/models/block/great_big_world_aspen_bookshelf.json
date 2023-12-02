@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "great_big_world:block/aspen_planks",
+    "side": "astound:block/great_big_world_aspen_bookshelf"
+  }
+}

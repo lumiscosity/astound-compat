@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wilderwild:block/baobab_planks",
+    "side": "astound:block/wilderwild_baobab_bookshelf"
+  }
+}
