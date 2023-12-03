@@ -47,6 +47,18 @@ dependencies {
 	// wilder wild (for (s)hlogs)
 	modImplementation "maven.modrinth:wilder-wild:lZgIMgjb"
 	modImplementation "maven.modrinth:frozenlib:9y9515ej"
+	// all other mods
+	// modImplementation "maven.modrinth:great-big-world:NIAb0XO6"
+	// modImplementation "maven.modrinth:creo-lib:V8ENaaAV"
+	// modImplementation "maven.modrinth:terrablender:CMDA8IcP"
+	// modImplementation "maven.modrinth:biome-makeover:rsoZ2Iqo"
+	// modImplementation "maven.modrinth:architectury-api:Sbew3kXe"
+	// modImplementation "maven.modrinth:cinderscapes:2mBOodyG"
+	// modImplementation "maven.modrinth:gardens-of-the-dead:dwXQdKI3"
+	// modImplementation "maven.modrinth:promenade:A5YD9uS3"
+	// modImplementation "maven.modrinth:pearfection:KHR0uBvn"
+	// modImplementation "maven.modrinth:hellions-sniffer+:DLjYM0KE"
+	// modImplementation "maven.modrinth:traverse:9o4IEnHZ"
 }
 
 processResources {
