@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "promenade:sakura_planks"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#%#",
+    "# #"
+  ],
+  "result": {
+    "count": 8,
+    "item": "astound:promenade_sakura_ladder"
+  }
+}

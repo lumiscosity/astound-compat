@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "biomemakeover:ancient_oak_planks"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#%#",
+    "# #"
+  ],
+  "result": {
+    "count": 8,
+    "item": "astound:biomemakeover_ancient_oak_ladder"
+  }
+}

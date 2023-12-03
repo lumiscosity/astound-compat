@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_bookshelf",
+  "pattern": [
+    "###",
+    "%%%",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gardens_of_the_dead:soulblight_planks"
+    },
+    "%": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "astound:gardens_of_the_dead_soulblight_bookshelf",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "promenade:dark_amaranth_planks"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#%#",
+    "# #"
+  ],
+  "result": {
+    "count": 8,
+    "item": "astound:promenade_dark_amaranth_ladder"
+  }
+}

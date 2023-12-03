@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "astound:great_big_world_mahogany_ladder"
+        }
+      ]
+    }
+  ]
+}

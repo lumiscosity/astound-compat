@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "snifferplus:stone_pine_planks"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#%#",
+    "# #"
+  ],
+  "result": {
+    "count": 8,
+    "item": "astound:snifferplus_stone_pine_ladder"
+  }
+}

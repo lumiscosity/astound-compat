@@ -15,10 +15,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.lumiscosity.AstoundCompat"
+			"com.lumiscosity.astound.AstoundCompat"
 		],
 		"client": [
-			"com.lumiscosity.AstoundCompatClient"
+			"com.lumiscosity.astound.AstoundCompatClient"
 		]
 	},
 	"depends": {

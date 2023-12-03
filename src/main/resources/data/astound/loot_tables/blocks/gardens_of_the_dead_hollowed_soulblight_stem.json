@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "astound:gardens_of_the_dead_hollowed_soulblight_stem"
+        }
+      ]
+    }
+  ]
+}

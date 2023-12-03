@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_ladder",
+  "key": {
+    "#": {
+      "item": "wilderwild:cypress_planks"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#%#",
+    "# #"
+  ],
+  "result": {
+    "count": 8,
+    "item": "astound:wilderwild_cypress_ladder"
+  }
+}
