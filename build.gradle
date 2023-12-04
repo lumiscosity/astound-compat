@@ -59,6 +59,8 @@ dependencies {
 	modImplementation "maven.modrinth:terrablender:${terrablender_version}"
 	implementation "com.electronwill.night-config:toml:${nightconfig_version}"
 	implementation "com.electronwill.night-config:core:${nightconfig_version}"
+	// biome makeover (CLONE GIT REPO & OPEN PROJECT FOR THIS TO WORK)
+	//modImplementation(project(":biomemakeover",))
 	// all other mods
 	modImplementation "maven.modrinth:great-big-world:NIAb0XO6"
 	modImplementation "maven.modrinth:creo-lib:V8ENaaAV"

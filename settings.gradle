@@ -8,3 +8,50 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+// TODO: wait for treetrain1
+//localRepository("biomemakeover", "maven.modrinth:biomemakeover", false)
+
+
+void localRepository(String repo, String dependencySub, boolean kotlin) {
+	println("Attempting to include local repo $repo")
+
+	boolean github = System.getenv("GITHUB_ACTIONS") == "true"
+
+	boolean allowLocalRepoUse = true
+	boolean allowLocalRepoInConsoleMode = true
+
+	String androidInjectedInvokedFromIde = extra("android.injected.invoked.from.ide")
+	String xpcServiceName = extra("XPC_SERVICE_NAME")
+	String ideaInitialDirectory = extra("IDEA_INITIAL_DIRECTORY")
+
+	boolean isIDE = androidInjectedInvokedFromIde != "" || (System.getenv(xpcServiceName) ?: "").contains("intellij") || (System.getenv(xpcServiceName) ?: "").contains(".idea") || System.getenv(ideaInitialDirectory) != null
+
+	var path = "../$repo"
+	var file = new File(path)
+
+	String prefixedRepoName = ":$repo"
+
+	if (allowLocalRepoUse && (isIDE || allowLocalRepoInConsoleMode)) {
+		if (github) {
+			path = repo
+			file = new File(path)
+			println("Running on GitHub")
+		}
+		if (file.exists()) {
+			/*includeBuild(path) {
+                dependencySubstitution {
+                    if (dependencySub != "") {
+                        substitute(module(dependencySub)).using(project(":"))
+                    }
+                }
+            }*/
+			include(prefixedRepoName)
+			project(prefixedRepoName).projectDir = file
+			project(prefixedRepoName).buildFileName = "./build.gradle" + kotlin ? ".kts" : ""
+			println("Included local repo $repo")
+		} else {
+			println("Local repo $repo not found")
+		}
+	}
+}
