@@ -51,7 +51,7 @@ dependencies {
 	modImplementation "maven.modrinth:great-big-world:NIAb0XO6"
 	modImplementation "maven.modrinth:creo-lib:V8ENaaAV"
 	modImplementation "maven.modrinth:terrablender:CMDA8IcP"
-	modImplementation "maven.modrinth:biome-makeover:rsoZ2Iqo"
+	//modImplementation "maven.modrinth:biome-makeover:rsoZ2Iqo"
 	modImplementation "maven.modrinth:architectury-api:Sbew3kXe"
 	modImplementation "maven.modrinth:cinderscapes:2mBOodyG"
 	modImplementation "maven.modrinth:gardens-of-the-dead:dwXQdKI3"
