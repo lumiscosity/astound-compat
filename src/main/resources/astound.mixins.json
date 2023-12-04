@@ -4,7 +4,7 @@
   "package": "com.lumiscosity.astound.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "HollowedLogInvokeMixin"
+    "HollowedLogInvoker"
   ],
   "client": [],
   "server": [],
