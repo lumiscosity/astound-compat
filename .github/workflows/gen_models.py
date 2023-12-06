@@ -19,8 +19,8 @@ def add_wood(wood_type, condition_id):
                                  condition_id.replace(":", "_hollowed_") + "_" + wood_type + ".json")
         # hlog hand model
         json_file = {
-            "parent": "assets/astound/models/block/" +
-                      condition_id.replace(":", "_hollowed_") + "_" + wood_type + ".json"
+            "parent": "astound:block/" +
+                      condition_id.replace(":", "_hollowed_") + "_" + wood_type
         }
         JsonFile(json_file).dump("assets/astound/models/item/",
                                  condition_id.replace(":", "_hollowed_") + "_" + wood_type + ".json")
@@ -37,8 +37,8 @@ def add_wood(wood_type, condition_id):
                                  condition_id.replace(":", "_stripped_hollowed_") + "_" + wood_type + ".json")
         # shlog hand model
         json_file = {
-            "parent": "assets/astound/models/block/" +
-                      condition_id.replace(":", "_stripped_hollowed_") + "_" + wood_type + ".json"
+            "parent": "astound:block/" +
+                      condition_id.replace(":", "_stripped_hollowed_") + "_" + wood_type
         }
         JsonFile(json_file).dump("assets/astound/models/item/",
                                  condition_id.replace(":", "_stripped_hollowed_") + "_" + wood_type + ".json")
@@ -95,7 +95,7 @@ def add_wood(wood_type, condition_id):
         JsonFile(json_file).dump("assets/astound/models/block/", condition_id.replace(":", "_") + "_trim.json")
         # trim hand model
         json_file = {
-            "parent": "assets/astound/models/block/" + condition_id.replace(":", "_") + "_trim.json"
+            "parent": "astound:block/" + condition_id.replace(":", "_") + "_trim"
         }
         JsonFile(json_file).dump("assets/astound/models/item/",
                                  condition_id.replace(":", "_") + "_trim.json")
@@ -111,7 +111,7 @@ def add_wood(wood_type, condition_id):
         JsonFile(json_file).dump("assets/astound/models/block/", condition_id.replace(":", "_") + "_panel.json")
         # panel hand model
         json_file = {
-            "parent": "assets/astound/models/block/" + condition_id.replace(":", "_") + "_panel.json"
+            "parent": "astound:block/" + condition_id.replace(":", "_") + "_panel"
         }
         JsonFile(json_file).dump("assets/astound/models/item/",
                                  condition_id.replace(":", "_") + "_panel.json")
@@ -216,7 +216,7 @@ def add_wood(wood_type, condition_id):
         JsonFile(json_file).dump("assets/astound/models/block/", condition_id.replace(":", "_") + "_bookshelf.json")
         # bookshelf hand model
         json_file = {
-            "parent": "assets/astound/models/block/" + condition_id.replace(":", "_") + "_bookshelf.json"
+            "parent": "astound:block/" + condition_id.replace(":", "_") + "_bookshelf"
         }
         JsonFile(json_file).dump("assets/astound/models/item/",
                                  condition_id.replace(":", "_") + "_bookshelf.json")
