@@ -26,7 +26,7 @@ repositories {
 }
 
 loom {
-    splitEnvironmentSourceSets()
+	splitEnvironmentSourceSets()
 
 	mods {
 		"modid" {
@@ -60,11 +60,10 @@ dependencies {
 	implementation "com.electronwill.night-config:toml:${nightconfig_version}"
 	implementation "com.electronwill.night-config:core:${nightconfig_version}"
 	// biome makeover (CLONE GIT REPO & OPEN PROJECT FOR THIS TO WORK)
-	//modImplementation(project(":biomemakeover",))
+	// modImplementation(project(":biomemakeover",))
 	// all other mods
 	modImplementation "maven.modrinth:great-big-world:NIAb0XO6"
 	modImplementation "maven.modrinth:creo-lib:V8ENaaAV"
-	//modImplementation "maven.modrinth:biome-makeover:rsoZ2Iqo"
 	modImplementation "maven.modrinth:architectury-api:Sbew3kXe"
 	modImplementation "maven.modrinth:cinderscapes:2mBOodyG"
 	modImplementation "maven.modrinth:gardens-of-the-dead:dwXQdKI3"
