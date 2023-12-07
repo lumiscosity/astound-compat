@@ -11,6 +11,7 @@ base {
 }
 
 repositories {
+	maven { url "https://jitpack.io" }
 	maven { url = "https://maven.terraformersmc.com/releases/" }
 	exclusiveContent {
 		forRepository {
@@ -70,6 +71,10 @@ dependencies {
 	modImplementation "maven.modrinth:pearfection:KHR0uBvn"
 	modImplementation "maven.modrinth:hellions-sniffer+:DLjYM0KE"
 	modImplementation "maven.modrinth:traverse:9o4IEnHZ"
+	modImplementation "maven.modrinth:abstract:8T0l0QkL"
+
+	modImplementation "maven.modrinth:jineric-mod:9H8uuSwI"
+	modImplementation "com.github.Chocohead:Fabric-ASM:v2.3"
 }
 
 processResources {
