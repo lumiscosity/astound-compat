@@ -11,7 +11,7 @@ public class AstoundCompat implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		RegularBlock.create_and_register();
+		RegularBlock.createAndRegister();
 		HollowedLogCompat.createAndRegister();
 
 		LOGGER.info("Astound compatibility tweaks loaded!");

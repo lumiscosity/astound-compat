@@ -19,7 +19,7 @@ public class RegularBlock {
     // bookshelves
     public static final Block GREAT_BIG_WORLD_ACAI_BOOKSHELF = new Block(FabricBlockSettings.copy(BOOKSHELF).sounds(BlockSoundGroup.CHISELED_BOOKSHELF));
 
-    public static void create_and_register() {
+    public static void createAndRegister() {
         makeBlock("great_big_world_acai_ladder", GREAT_BIG_WORLD_ACAI_LADDER);
 
         makeBlock("great_big_world_acai_bookshelf",GREAT_BIG_WORLD_ACAI_BOOKSHELF);
