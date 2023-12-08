@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "wilderwild:biomemakeover_swamp_cypress_hollowed_stems"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "biomemakeover:swamp_cypress_planks"
+  }
+}

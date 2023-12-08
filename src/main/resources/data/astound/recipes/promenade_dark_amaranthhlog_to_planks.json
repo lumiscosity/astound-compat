@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "wilderwild:promenade_dark_amaranth_hollowed_stems"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "promenade:dark_amaranth_planks"
+  }
+}

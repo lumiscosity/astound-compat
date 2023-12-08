@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "wilderwild:snifferplus_stone_pine_hollowed_stems"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "snifferplus:stone_pine_planks"
+  }
+}

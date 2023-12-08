@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "wilderwild:biomemakeover_blighted_balsa_hollowed_stems"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "biomemakeover:blighted_balsa_planks"
+  }
+}

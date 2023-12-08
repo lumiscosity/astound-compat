@@ -1,5 +1,6 @@
 package com.lumiscosity.astound;
 
+import net.digitalpear.pearfection.init.PearBlocks;
 import com.github.creoii.greatbigworld.main.registry.GBWBlocks;
 import com.lumiscosity.astound.mixin.HollowedLogInvoker;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -137,10 +138,10 @@ public final class WilderWildCompat {
                 HollowedLogBlock.hollow(level, pos, state, face, GARDENS_OF_THE_DEAD_HOLLOWED_SOULBLIGHT_STEM, true));
         AxeBehaviors.AXE_BEHAVIORS.put(fromID("gardens_of_the_dead:stripped_soulblight_stem"), (context, level, pos, state, face, horizontal) ->
                 HollowedLogBlock.hollow(level, pos, state, face, GARDENS_OF_THE_DEAD_STRIPPED_HOLLOWED_SOULBLIGHT_STEM, true));
-        AxeBehaviors.AXE_BEHAVIORS.put(fromID("pearfection:callery_stem"), (context, level, pos, state, face, horizontal) ->
-                HollowedLogBlock.hollow(level, pos, state, face, PEARFECTION_HOLLOWED_CALLERY_STEM, true));
-        AxeBehaviors.AXE_BEHAVIORS.put(fromID("pearfection:stripped_callery_stem"), (context, level, pos, state, face, horizontal) ->
-                HollowedLogBlock.hollow(level, pos, state, face, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM, true));
+        AxeBehaviors.AXE_BEHAVIORS.put(PearBlocks.CALLERY_STEM, (context, level, pos, state, face, horizontal) ->
+                HollowedLogBlock.hollow(level, pos, state, face, PEARFECTION_HOLLOWED_CALLERY_STEM, false));
+        AxeBehaviors.AXE_BEHAVIORS.put(PearBlocks.STRIPPED_CALLERY_STEM, (context, level, pos, state, face, horizontal) ->
+                HollowedLogBlock.hollow(level, pos, state, face, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM, false));
         AxeBehaviors.AXE_BEHAVIORS.put(fromID("promenade:dark_amaranth_stem"), (context, level, pos, state, face, horizontal) ->
                 HollowedLogBlock.hollow(level, pos, state, face, PROMENADE_HOLLOWED_DARK_AMARANTH_STEM, true));
         AxeBehaviors.AXE_BEHAVIORS.put(fromID("promenade:stripped_dark_amaranth_stem"), (context, level, pos, state, face, horizontal) ->
