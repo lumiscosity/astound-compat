@@ -179,7 +179,7 @@ public final class WilderWildCompat {
         quickTabs(fromID("cinderscapes:scorched_stem"), CINDERSCAPES_HOLLOWED_SCORCHED_STEM, CINDERSCAPES_STRIPPED_HOLLOWED_SCORCHED_STEM);
         quickTabs(fromID("cinderscapes:umbral_stem"), CINDERSCAPES_HOLLOWED_UMBRAL_STEM, CINDERSCAPES_STRIPPED_HOLLOWED_UMBRAL_STEM);
         quickTabs(fromID("gardens_of_the_dead:soulblight_stem"), GARDENS_OF_THE_DEAD_HOLLOWED_SOULBLIGHT_STEM, GARDENS_OF_THE_DEAD_STRIPPED_HOLLOWED_SOULBLIGHT_STEM);
-        quickTabs(fromID("pearfection:callery_stem"), PEARFECTION_HOLLOWED_CALLERY_STEM, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM);
+        quickTabs(PearBlocks.CALLERY_STEM, PEARFECTION_HOLLOWED_CALLERY_STEM, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM);
         quickTabs(fromID("promenade:dark_amaranth_stem"), PROMENADE_HOLLOWED_DARK_AMARANTH_STEM, PROMENADE_STRIPPED_HOLLOWED_DARK_AMARANTH_STEM);
         quickTabs(fromID("promenade:maple_log"), PROMENADE_HOLLOWED_MAPLE_LOG, PROMENADE_STRIPPED_HOLLOWED_MAPLE_LOG);
         quickTabs(fromID("promenade:palm_log"), PROMENADE_HOLLOWED_PALM_LOG, PROMENADE_STRIPPED_HOLLOWED_PALM_LOG);
@@ -237,8 +237,8 @@ public final class WilderWildCompat {
         Termite.addDegradable(fromID("cinderscapes:umbral_hyphae"), fromID("cinderscapes:stripped_umbral_hyphae"));
         quickTermite(fromID("gardens_of_the_dead:soulblight_stem"), fromID("gardens_of_the_dead:stripped_soulblight_stem"), GARDENS_OF_THE_DEAD_HOLLOWED_SOULBLIGHT_STEM, GARDENS_OF_THE_DEAD_STRIPPED_HOLLOWED_SOULBLIGHT_STEM);
         Termite.addDegradable(fromID("gardens_of_the_dead:soulblight_hyphae"), fromID("gardens_of_the_dead:stripped_soulblight_hyphae"));
-        quickTermite(fromID("pearfection:callery_stem"), fromID("pearfection:stripped_callery_stem"), PEARFECTION_HOLLOWED_CALLERY_STEM, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM);
-        Termite.addDegradable(fromID("pearfection:callery_wood"), fromID("pearfection:stripped_callery_wood"));
+        quickTermite(PearBlocks.CALLERY_STEM, PearBlocks.STRIPPED_CALLERY_STEM, PEARFECTION_HOLLOWED_CALLERY_STEM, PEARFECTION_STRIPPED_HOLLOWED_CALLERY_STEM);
+        Termite.addDegradable(PearBlocks.CALLERY_WOOD, PearBlocks.STRIPPED_CALLERY_WOOD);
         quickTermite(fromID("promenade:dark_amaranth_stem"), fromID("promenade:stripped_dark_amaranth_stem"), PROMENADE_HOLLOWED_DARK_AMARANTH_STEM, PROMENADE_STRIPPED_HOLLOWED_DARK_AMARANTH_STEM);
         Termite.addDegradable(fromID("promenade:dark_amaranth_hyphae"), fromID("promenade:stripped_dark_amaranth_hyphae"));
         quickTermite(fromID("promenade:maple_log"), fromID("promenade:stripped_maple_log"), PROMENADE_HOLLOWED_MAPLE_LOG, PROMENADE_STRIPPED_HOLLOWED_MAPLE_LOG);
