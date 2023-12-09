@@ -63,6 +63,7 @@ dependencies {
 	// biome makeover (CLONE GIT REPO & OPEN PROJECT FOR THIS TO WORK)
 	// modImplementation(project(":biomemakeover",))
 	// all other mods
+	modImplementation "maven.modrinth:abstract:1.0.0"
 	modImplementation "maven.modrinth:great-big-world:NIAb0XO6"
 	modImplementation "maven.modrinth:creo-lib:V8ENaaAV"
 	modImplementation "maven.modrinth:architectury-api:Sbew3kXe"
